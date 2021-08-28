@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navBar">
+        <h1>Dictionary</h1>
+        <a href="https://twitter.com/rushi_mungse" target="_blank">Follow Me</a>
+      </div>
+      <div class="box">
+        <h2>Find any word</h2>
+        <div class="form">
+          <input type="text" placeholder="Search any word" id="input" />
+          <button id="search">Search</button>
+        </div>
+        <div class="data">
+            <span class="loading">Loading...</span>
+            <p class="def"></p>
+            <div class="audio"></div>
+            <div class="wordNotFound"></div>
+            <div class="suggest"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/JavaScript" src="app.js"></script>
+  </body>
+</html>
